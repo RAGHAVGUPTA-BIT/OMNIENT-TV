@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMNIENT-TV - Discover OTT Content</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="https://via.placeholder.com/150x50/007bff/ffffff?text=OTTplay" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#trending">Trending</a></li>
+                    <li><a href="#movies">Movies</a></li>
+                    <li><a href="#tv-shows">TV Shows</a></li>
+                    <li><a href="#genres">Genres</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Search for movies, shows...">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Discover the Best OTT Content</h1>
+            <p>Explore movies and shows from Netflix, Prime Video, and more.</p>
+            <button class="cta-btn">Browse Now</button>
+        </div>
+        <div class="hero-image">
+            <img src="https://source.unsplash.com/800x400/?movie,poster" alt="Hero Poster">
+        </div>
+    </section>
+
+    <section id="trending" class="content-section">
+        <h2>Trending Now</h2>
+        <div class="content-grid">
+            <div class="content-item" data-title="Stranger Things" data-platform="Netflix">
+                <img src="assets/stranger-things.webp" alt="Stranger Things">
+                <div class="overlay">
+                    <h3>Stranger Things</h3>
+                    <button class="watch-btn" data-video="stranger-things">Watch Now</button>
+                </div>
+            </div>
+            <div class="content-item" data-title="The Mandalorian" data-platform="Disney+">
+                <img src="assets/the-mandalorian.jpeg" alt="The Mandalorian">
+                <div class="overlay">
+                    <h3>The Mandalorian</h3>
+                    <button class="watch-btn" data-video="the-mandalorian">Watch Now</button>
+                </div>
+            </div>
+            <div class="content-item" data-title="Breaking Bad" data-platform="Netflix">
+                <img src="assets/breaking-bad.jpg" alt="Breaking Bad">
+                <div class="overlay">
+                    <h3>Breaking Bad</h3>
+                    <button class="watch-btn" data-video="breaking-bad">Watch Now</button>
+                </div>
+            </div>
+            <div class="content-item" data-title="The Crown" data-platform="Netflix">
+                <img src="assets/the-Crown.jpeg" alt="The Crown">
+                <div class="overlay">
+                    <h3>The Crown</h3>
+                    <button class="watch-btn" data-video="the-crown">Watch Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="movies" class="content-section">
+        <h2>Popular Movies</h2>
+        <div class="content-grid">
+            <div class="content-item" data-title="Inception" data-platform="Netflix">
+                <img src="assets/inception.webp" alt="Inception">
+                <div class="overlay">
+                    <h3>Inception</h3>
+                    <button class="watch-btn" data-video="inception">Watch Now</button>
+                </div>
+            </div>
+            <div class="content-item" data-title="Avengers: Endgame" data-platform="Disney+">
+                <img src="assets/avengers-endgame.jpg" alt="Avengers: Endgame">
+                <div class="overlay">
+                    <h3>Avengers: Endgame</h3>
+                    <button class="watch-btn" data-video="avengers-endgame">Watch Now</button>
+                </div>
+            </div>
+            <div class="content-item" data-title="The Dark Knight" data-platform="HBO Max">
+                <img src="assets/dark-knight.webp" alt="The Dark Knight">
+                <div class="overlay">
+                    <h3>The Dark Knight</h3>
+                    <button class="watch-btn" data-video="the-dark-knight">Watch Now</button>
+                </div>
+            </div>
+            <div class="content-item" data-title="John Wick" data-platform="HBO Max">
+                <img src="assets/John-Wick.jpg" alt="John Wick">
+                <div class="overlay">
+                    <h3>John Wick</h3>
+                    <button class="watch-btn" data-video="the-dark-knight">Watch Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tv-shows" class="content-section">
+        <h2>Popular TV Shows</h2>
+        <div class="content-grid">
+            <div class="content-item" data-title="Game of Thrones" data-platform="HBO Max">
+                <img src="assets/got.jpg" alt="Game of Thrones">
+                <div class="overlay">
+                    <h3>Game of Thrones</h3>
+                    <button class="watch-btn" data-video="game-of-thrones">Watch Now</button>
+                </div>
+            </div>
+            <div class="content-item" data-title="The Office" data-platform="Netflix">
+                <img src="assets/office.webp" alt="The Office">
+                <div class="overlay">
+                    <h3>The Office</h3>
+                    <button class="watch-btn" data-video="the-office">Watch Now</button>
+                </div>
+            </div>
+            <div class="content-item" data-title="Friends" data-platform="Netflix">
+                <img src="assets/friends.jpg" alt="Friends">
+                <div class="overlay">
+                    <h3>Friends</h3>
+                    <button class="watch-btn" data-video="friends">Watch Now</button>
+                </div>
+            </div>
+            <div class="content-item" data-title="Breaking Bad" data-platform="Netflix">
+                <img src="assets/breaking-bad.jpg" alt="Breaking Bad">
+                <div class="overlay">
+                    <h3>Breaking Bad</h3>
+                    <button class="watch-btn" data-video="Breaking Bad">Watch Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="genres" class="content-section">
+        <h2>Genres</h2>
+        <div class="genre-grid">
+            <div class="genre-item">
+                <img src="https://source.unsplash.com/300x200/?action" alt="Action">
+                <h3>Action</h3>
+            </div>
+            <div class="genre-item">
+                <img src="https://source.unsplash.com/300x200/?comedy" alt="Comedy">
+                <h3>Comedy</h3>
+            </div>
+            <div class="genre-item">
+                <img src="https://source.unsplash.com/300x200/?drama" alt="Drama">
+                <h3>Drama</h3>
+            </div>
+            <div class="genre-item">
+                <img src="https://source.unsplash.com/300x200/?horror" alt="Horror">
+                <h3>Horror</h3>
+            </div>
+            <div class="genre-item">
+                <img src="https://source.unsplash.com/300x200/?sci-fi" alt="Sci-Fi">
+                <h3>Sci-Fi</h3>
+            </div>
+            <div class="genre-item">
+                <img src="https://source.unsplash.com/300x200/?romance" alt="Romance">
+                <h3>Romance</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About OMNIENT-TV</h4>
+                <p>Your ultimate guide to OTT content</p>
+            </div>
+            <div class="footer-section">
+                <h4>Support</h4>
+                <ul>
+                    <li>Help Center</li>
+                    <li>Contact Us</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2023 OMNIENT-TV. All rights reserved.</p>
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-platform"></p>
+            <p id="modal-description">Description: A thrilling adventure...</p>
+            <button id="watch-on-platform">Watch on Platform</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
